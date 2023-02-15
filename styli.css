@@ -1,14 +1,16 @@
-.wrapper {
+body{
+  margin: 0;
+}
+  .wrapper {
   width: 1290px;
   margin: 0 auto;
 }
 
-
 .header{
   height: 90px;
-
+  width: 1290px;
+  margin: 0 auto;
   background-repeat: no-repeat;
-  border-bottom: 1px solid rgb(0, 0, 0);
   /* position: absolute; */
   display: flex;
   justify-content: space-between;
@@ -38,14 +40,23 @@ border-radius: 20px;
 .search:focus::-webkit-input-placeholder {
   color: transparent;
 }
+
 .block-hero {
+  height: 552px;
+  width: 100%;
+  background: rgb(164,164,164);
+background: linear-gradient(90deg, rgba(164,164,164,1) 0%, rgba(36,36,36,1) 90%);
+
+}
+
+.container {
   height: 100%;
   width: 100%;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: end;
   margin: 0 200px 0 0;
 }
+
 .block-hero__img{
   margin: 0 200px 0 0;
 }
