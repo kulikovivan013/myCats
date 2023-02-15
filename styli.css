@@ -1,0 +1,62 @@
+.wrapper {
+  width: 1290px;
+  margin: 0 auto;
+}
+
+
+.header{
+  height: 90px;
+
+  background-repeat: no-repeat;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  /* position: absolute; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name{
+font-size:60px ;
+  padding: 5px ;
+  display: flex;
+  align-items: center;
+}
+.Land{
+color: chartreuse;
+}
+.Animals{
+color: darkorange;
+}
+.search{
+height: 30px;
+width: 300px;
+background: url('751463.png'); 
+background-repeat: no-repeat; 
+padding-left: 30px;
+border-radius: 20px;
+}
+
+.search:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.block-hero {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  margin: 0 200px 0 0;
+}
+.block-hero__img{
+  margin: 0 200px 0 0;
+}
+/* .menu{
+ background-color: #e8e8e8;
+height: 1300px;
+width: 100%;
+} */
+/* .abisinskaya{
+  height: 200px;
+  width: 200px;
+  padding-left: 40px;
+  padding-top: 20px;
+} */
